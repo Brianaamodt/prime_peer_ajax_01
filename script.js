@@ -18,7 +18,6 @@ function search(value){
         dataType: 'json',
         success: function(response) {
             display(response);
-            console.log(response);
         },
         error: function (xhr, status) {
             alert('Error: ' + status + '\nThis user may not exist or the name could\'ve been spelled wrong. Try again!');
